@@ -364,17 +364,15 @@ input[type="search"]:focus {
 
 .announcements__descr {
     /* font-size: 14px; */
-    font-size: clamp(14px, calc(1vw - 3px), 28px);
+    font-size: clamp(14px, calc(1vw - 4px), 28px);
 }
 
 /* TRENDING */
-
-
 .trending__card {
     display: grid;
     grid-auto-rows: auto;
     gap: 20px;
-    font-size: clamp(16px, 1vw, 30px);
+    font-size: clamp(16px, calc(1vw - 3px), 30px);
 
 }
 
@@ -439,7 +437,6 @@ input[type="search"]:focus {
 }
 
 .scroll-lock {
-    /* overflow: hidden; */
     position: fixed; 
     overflow-y:scroll
 }
@@ -484,18 +481,6 @@ input[type="search"]:focus {
     .main-left__content {
         grid-template-columns: repeat(auto-fit, 1fr);
     }
-
-    /* .sidebar{
-        width: 250px;
-         position: fixed;
-         z-index: 10;
-         height:  90vh;
-         top: 50%;
-         left: 50%;
-          visibility: hidden;
-         transform: translate(-50%, -50%);
-         transform: translateX(-100px);
-    } */
 }
 
 @media only screen and (max-width: 700px) {
